@@ -1,7 +1,9 @@
-function addNumbers(a,b)
+
+
+function addNumbers(a, b, c)
 {
-	// This is the function body. Write your code here.
+	return a + b * c;
 }
 
 //Do not change the code below
-console.log(addNumbers(3,4));
+console.log(addNumbers(3,4,5));
