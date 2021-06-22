@@ -41,9 +41,9 @@ var person3 = {
 };
 
 function familyChanges() {
-    person.lucky_numbers[3] = "33";
+    person.lucky_numbers[3] = 33;
     family.members.push(person3);
-   // console.log(family.members[2]) //To check if Jimmy was added
+  // console.log(family.members[2]) //To check if Jimmy was added
     console.log(family.members[0].lucky_numbers[3]);
     //console.log(luckyNumbersFamilySum);
     
